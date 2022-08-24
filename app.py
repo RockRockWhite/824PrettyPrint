@@ -43,7 +43,7 @@ def main():
         topic = res[2]
         term = int(res[3])
         id = int(res[4])
-        msg = res[5]
+        msg = "S{0} T{1}: ".format(id, term) + res[5]
 
         color = TOPICS[topic]
         msg = f"[{color}]{msg}[/{color}]"
