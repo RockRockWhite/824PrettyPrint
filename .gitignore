@@ -1,2 +1,4 @@
-./idea/
-./824PrettyPrint/
+.DS_Store
+
+.idea/
+824PrettyPrint/
